@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Cadastro</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+                background-image: url(https://kornofficial.com/wp-content/themes/kornxroc/korn30/images/ray2_wide.jpg);
+                margin: 0;
+                height: 100vh;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center; 
+                font-family: Arial, sans-serif;
+            }
+            .login {
+                display: flex;
+                justify-content: flex-start; 
+                align-items: center;
+                width: 100%;
+                padding-left: 20px; 
+            }
+            .login img {
+                height: 400px;
+                margin-left: 190px;
+                margin-right: 70px;
+            }
+            .logForm {
+                border: 2px solid rgba(255, 255, 255, 0.5);
+                height: 500px;
+                backdrop-filter: blur(10px);
+                width: 600px;
+                border-radius: 20px;
+                padding: 20px;
+                display: inline-block;
+                background-color: rgba(255, 255, 255, 0.1);
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+            .logForm h2 {
+                color: white;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .logForm input {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                border: 1px solid rgba(255, 255, 255, 0.5);
+                border-radius: 5px;
+                background-color: rgba(255, 255, 255, 0.1);
+                color: white;
+                font-size: 16px;
+            }
+            .logForm input::placeholder {
+                color: rgba(255, 255, 255, 0.7);
+            }
+            .logForm input[type="submit"] {
+                background-color: #007BFF;
+                border: none;
+                color: white;
+                cursor: pointer;
+                font-size: 18px;
+                transition: background-color 0.3s ease;
+            }
+            .logForm input[type="submit"]:hover {
+                background-color: #0056b3;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="login">
+            <img src="https://signup.kornwebstore.com/sites/g/files/g2000017201/files/2023-09/Korn-Logo-%28White%29.png">
+            <div class="logForm">
+                <h2>Cadastro</h2>
+                <form action="cadastro.html" method="get">
+                    <input type="text" placeholder="Nome completo" required>
+                    <input type="email" placeholder="E-mail" required>
+                    <input type="password" placeholder="Senha" required>
+                    <input type="password" placeholder="Confirme sua senha" required>
+                    <input type="submit" value="Cadastrar">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
