@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Korn</title>
+    <title>Korn - Official Site</title>
     <meta charset="utf-8">
     <style>
         body {
@@ -39,13 +39,55 @@
             text-decoration: underline;
             color: red;
         }
-        .content{
-            background-color: black;
+
+        .content {
+            background-color: #1a1a1a;
             border-radius: 10px;
             margin-left: 40px;
             margin-right: 40px;
             margin-top: 15px;
-            padding: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content img {
+            width: 80%;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            color: #FF5733;
+            margin-top: 30px;
+            text-transform: uppercase;
+        }
+
+        .band-info {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-top: 15px;
+        }
+
+        .album {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .album img {
+            width: 200px;
+            border-radius: 15px;
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+            margin-top: 30px;
         }
     </style>
 </head>
@@ -54,21 +96,73 @@
         <img src="https://signup.kornwebstore.com/sites/g/files/g2000017201/files/2023-09/Korn-Logo-%28White%29.png" class="logo">
 
         <div class="headLinks">
-            <a href="#">Spotify</a>
-            <a href="#">YouTube</a>
+            <a href="https://www.spotify.com" target="_blank">Spotify</a>
+            <a href="https://www.youtube.com/user/Korn" target="_blank">YouTube</a>
             <a href="#">Discografia</a>
         </div>
 
         <div class="headLinks">
             <a href="#">Contato</a>
-            <a href="">Cadastro</a>
-            <a href="">Login</a>
+            <a href="#">Cadastro</a>
+            <a href="#">Login</a>
         </div>
     </div>
 
     <div class="content">
-        <br>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi iste consequatur reprehenderit fugit veritatis consectetur iusto mollitia dolores est, culpa pariatur expedita esse fugiat in blanditiis dolorem, deleniti tenetur rerum?</p>
+        <h2>Bem-vindo ao Oficial Site do Korn</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Korn_2018.jpg" alt="Korn Band Photo">
+
+        <div class="band-info">
+            <h3 class="section-title">A História do Korn</h3>
+            <p>O Korn é uma banda americana de nu metal formada em 1993 em Bakersfield, Califórnia. A banda foi fundada por Jonathan Davis (vocais), James "Munky" Shaffer (guitarra), Brian "Head" Welch (guitarra), Reginald "Fieldy" Arvizu (baixo) e David Silveria (bateria).</p>
+            <p>O Korn é um dos pioneiros do nu metal, uma fusão de metal, rap, funk, rock alternativo e elementos experimentais. Eles se destacaram desde o lançamento de seu álbum de estreia homônimo em 1994, sendo um dos discos mais influentes do gênero. Seu som pesado e letras emocionais abordam temas como alienação, abuso, vícios e saúde mental.</p>
+            <p>Durante sua carreira, a banda experimentou várias mudanças na formação, mas sempre se manteve fiel ao seu estilo único. O Korn é conhecido por sua habilidade de conectar profundamente com seus fãs, especialmente devido ao som visceral e letras que falam sobre temas pessoais e emocionais.</p>
+        </div>
+
+        <h3 class="section-title">Membros da Banda</h3>
+        <div class="band-info">
+            <p>Os membros da banda Korn ao longo dos anos incluem:</p>
+            <ul>
+                <li><strong>Jonathan Davis</strong> - Vocais</li>
+                <li><strong>James "Munky" Shaffer</strong> - Guitarra</li>
+                <li><strong>Brian "Head" Welch</strong> - Guitarra</li>
+                <li><strong>Reginald "Fieldy" Arvizu</strong> - Baixo</li>
+                <li><strong>Ray Luzier</strong> - Bateria (substituindo David Silveria)</li>
+            </ul>
+        </div>
+
+        <h3 class="section-title">Álbuns Icônicos</h3>
+        <div class="album">
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Korn_-_Follow_the_Leader.jpg" alt="Follow The Leader">
+                <p>Follow the Leader (1998)</p>
+            </div>
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Korn_-_Issues.png" alt="Issues">
+                <p>Issues (1999)</p>
+            </div>
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Korn_-_Untouchables.jpg" alt="Untouchables">
+                <p>Untouchables (2002)</p>
+            </div>
+        </div>
+
+        <h3 class="section-title">Galeria de Fotos</h3>
+        <div class="album">
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Korn_band_%28Promo_2019%29.jpg" alt="Korn Promo Photo 2019">
+                <p>Foto Promocional 2019</p>
+            </div>
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Korn_2014.jpg" alt="Korn 2014">
+                <p>Performing ao Vivo em 2014</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Korn - Todos os direitos reservados</p>
     </div>
 </body>
 </html>
